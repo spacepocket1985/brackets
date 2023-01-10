@@ -20,7 +20,5 @@ let j = 0;
         check1(arr[j], arr[j + 1], j, arr);
     }
 
-    result = (arr.length == 0)?(true):(false)
-    
-    return result
+    return (arr.length == 0)
 }
